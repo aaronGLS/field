@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta</title>
+  <!-- Añadimos las fuentes de Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styleCarta.css">
+</head>
+<body>
+  <main>
+    <h1 class="main-title">
+      Feliz San Valentín Nita <span class="title-heart">❤</span>
+    </h1>
+    <div class="container-letter">
+      <div class="cover"></div>
+      <div class="wax-seal">
+        <img src="../assets/corazonNegro.png" alt="Corazón">
+      </div>
+     
+      <span class="heart">♥</span>
+      <div class="paper">
+        <p id="mainMessage">
+          Para Nita<br><br>
+          En este día tan especial, quiero detener el tiempo para recordar la magia de nuestra amistad. No hay nada más hermoso que esos instantes que compartimos, desde las largas noches en vela jugando y riendo, hasta las conversaciones que se extendían hasta el amanecer. Cada recuerdo contigo es un tesoro que guardo en el alma, un fragmento de felicidad que me transporta a épocas doradas.<br><br>
+          Cada risa y cada juego, incluso nuestras épicas partidas en <strong>Brawl Stars</strong>, han tejido una red de momentos inolvidables que me hacen desear volver a revivirlos. Siento una dulce nostalgia al pensar en cada instante, en cada charla que nos unió y nos hizo soñar despiertos. Aunque el tiempo avanza implacable, en mi corazón esos momentos perdurarán, recordándome lo valioso que es disfrutar de la vida en compañía de alguien tan especial.<br><br>
+          Gracias por regalarme tantos instantes de alegría y complicidad, por enseñarme que la verdadera amistad es un refugio eterno.<br>
+          Te quiero con todo mi corazón, Nita, y siempre atesoraré cada risa, cada desvelo, y cada aventura que compartimos.<br><br>
+          Con cariño,<br>
+          yo
+        </p>
+      </div>
+      <div class="letter"></div>
+    </div>
+  </main>
+  <!-- Añadir el audio element directamente -->
+  <audio 
+    id="bgMusic" 
+    src="../assets/likeYouDo.mp3" 
+    loop 
+    autoplay 
+    hidden></audio>
+
+  <script src="./scriptCarta.js"></script>
+</body>
+</html>
